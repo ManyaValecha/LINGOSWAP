@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gpt-result h1, .gpt-result h2, .gpt-result h3, .gpt-result h4, .gpt-result h5, .gpt-result h6 {
+  @apply font-bold text-xl text-white;
+}
+
+.gpt-result p {
+  @apply text-gray-300 leading-relaxed my-2;
+}
+
+.gpt-result ul {
+  @apply list-disc list-inside ml-5 text-gray-300;
+}
+
+.gpt-result li {
+  @apply mb-2;
+}
+
+.gpt-result pre {
+  @apply bg-gray-800 p-4 rounded-lg overflow-auto shadow-md text-sm;
+}
+
+.gpt-result code {
+  @apply font-mono text-gray-300;
+}
+
+.gpt-result code.language-javascript {
+  @apply block;
+}
+
+
+.hljs-comment,
+.hljs-quote {
+  @apply text-gray-500 italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  @apply text-purple-400;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-name,
+.hljs-variable {
+  @apply text-yellow-400;
+}
+
+.hljs-string {
+  @apply text-green-400;
+}
+
+.hljs-function .hljs-title {
+  @apply text-blue-400;
+}
+
+.hljs-number {
+  @apply text-pink-400;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  @apply text-teal-400;
+}
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-title {
+  @apply text-orange-400;
+}
+
+.hljs-meta,
+.hljs-link {
+  @apply text-indigo-400;
+}
+
+@layer base {
+  :root {
+
+    --radius: 0.5rem
+  }
+}
+
+/* Hide scrollbar in WebKit-based browsers (Chrome, Safari) */
+textarea::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* For Firefox, hide scrollbar while allowing resize */
+textarea {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Optional: Custom styling for the scrollbar if you ever want it back */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #444; /* Dark scrollbar thumb */
+  border-radius: 10px;
+}
