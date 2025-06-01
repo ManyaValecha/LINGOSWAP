@@ -2,18 +2,24 @@ import Image from "next/image"
 import DynamicTagline from "./DynamicTagline"
 
 export default function Hero() {
-    const title = "Welcome to GenZify🗿"
+    const title = "Welcome to LINGOSWAP🗿"
 
     const taglines = [
-        "Bet your AI isn’t this lit—turning mid-code into GOAT-level status 🐐⚡.",
-        "Your code's been mewing, now it’s an absolute gigachad 🧠💪.",
-        "Turning your mid texts into giga-level mews—AI flexing hard. 🚀",
-        "GenZ-ify your code, unlock your inner gigachad. No mew, no gain. 💪🚀",
-        "Making your texts absolute gigachad material, one mew at a time. 🧠✨",
-        "Why code like a boomer? GenZify makes it lit 🔥🦾.",
-        "Mewing your code to gigachad status—no cap, just pure gains. 🦾💯",
-        "AI that’s mewing harder than a Chad on leg day. 🏋️‍♂️🔥",
-        "Mewing texts and codes into giga-status—don’t let them stay NPC. 🦾👾",
+        "That code? Straight giga, no cap. 🧠🔥",
+        "Your code just got a productivity glow-up. 🚀",
+        "Now that’s what I call a solid piece of programming. 👌",
+
+        "We mewed your text—now it slaps. 😤📱",
+        "Polished, efficient, and ready for LinkedIn. ✅",
+        "Cleaned up your writing — now it reads like a pro manual. 📘",
+
+        "Mid code? Fixed it. It’s bussin’ now. 💯⚡",
+        "Upgraded your logic like a true side-hustle pro. 💼💡",
+        "Got your syntax squared away — back in my day, we called that craftsmanship. 🧰",
+
+        "Your output's so clean it could be on a FYP. 🧼📲",
+        "That’s some peak adulting-level clarity. 📝✅",
+        "Well-structured and to the point. Just like the manuals we used. 📚",
     ];
 
 
@@ -23,7 +29,6 @@ export default function Hero() {
                 <Image src="/giga-chad.png" width={1600} height={1200} alt="Giga Chad" className="w-full" />
             </div>
             <div className="sm:mt-20 md:mt-24 w-full min-h-28">
-                {/* create a hero title and tagline for this GenZify app (use gen-z language)*/}
                 <div className="w-full text-center sm:text-start">
                     <h1 className="text-4xl font-bold text-white mb-1">{title}</h1>
                 </div>
