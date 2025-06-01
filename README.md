@@ -103,7 +103,7 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn�
 
 ---
 
-## **Why This Should Win X-RAPTORS Hackathon 2025 🏆🥳**
+## ** BEST FEATURES OF LINGOSWAP 🏆🥳**
 
 * **Cutting-Edge AI Integration:** Using COHERE’s language models, LINGOSWAP delivers real-time, generation-tailored slang with unmatched authenticity.
 * **Socially Relevant & Fun:** Bridges generational language gaps in a playful way, perfectly capturing the hackathon theme of “The Intersection.”
@@ -111,7 +111,7 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn�
 * **Scalable & Smart Backend:** Implements rate limiting and analytics for fair use and continuous improvement.
 * **Innovation Meets Practicality:** Not just a gimmick — it’s a tool for social connection, language learning, and cultural exploration.
 
-**LINGOSWAP** is ready to bring the heat 🔥 and own that 1st place trophy 🏆 at X-RAPTORS Hackathon 2025!
+**LINGOSWAP** is ready to bring the heat 🔥
 
 ---
 
