@@ -19,8 +19,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   try {
     const genZPrompt = `Convert this sentence into Gen Z slang: ${prompt}`;
     const millennialPrompt = `Convert this sentence into Millennial slang: ${prompt}`;
+    const boomerPrompt = `Convert this sentence into Boomer slang: ${prompt}`;
 
-    const [genZRes, millennialRes] = await Promise.all([
+    const [genZRes, millennialRes, boomerRes] = await Promise.all([
       fetch("https://api.cohere.ai/v1/generate", {
         method: "POST",
         headers: {
@@ -47,6 +48,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           temperature: 0.7,
         }),
       }),
+      fetch("https://api.cohere.ai/v1/generate", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          model: "command",
+          prompt: boomerPrompt,
+          max_tokens: 60,
+          temperature: 0.7,
+        }),
+      })
     ]);
 
     if (!genZRes.ok) {
@@ -59,16 +73,24 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       console.error("Millennial API error:", errorText);
       return res.status(500).json({ error: 'Error generating Millennial text' });
     }
+    if (!boomerRes.ok) {
+      const errorText = await boomerRes.text();
+      console.error("Boomer API error:", errorText);
+      return res.status(500).json({ error: 'Error generating Boomer text' });
+    }
 
     const genZData = await genZRes.json();
     const millennialData = await millennialRes.json();
+    const boomerData = await boomerRes.json();
 
     console.log("GenZ response:", genZData.generations?.[0]?.text);
     console.log("Millennial response:", millennialData.generations?.[0]?.text);
+    console.log("Boomer response:", boomerData.generations?.[0]?.text);
 
     return res.status(200).json({
       genZ: genZData.generations?.[0]?.text.trim() || "",
       millennial: millennialData.generations?.[0]?.text.trim() || "",
+      boomer: boomerData.generations?.[0]?.text.trim() || ""
     });
   } catch (error: any) {
     console.error("Catch error:", error.message);
