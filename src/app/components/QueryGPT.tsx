@@ -41,7 +41,7 @@ export default function QueryGPT({ placeholder }: { placeholder: string }) {
 
         try {
             const message = await queryCohere(chatQuery)
-            setResult(`Gen Z: ${message.genz}\n\nMillennial: ${message.millennial}`)
+            setResult(`Gen Z: ${message.genz}\n\nMillennial: ${message.millennial}\n\nBoomer: ${message.boomer}`)
             setLastQuery(chatQuery)
         } catch (error) {
             console.error(error)
@@ -134,7 +134,7 @@ export default function QueryGPT({ placeholder }: { placeholder: string }) {
 }
 
 // API fetch helper
-async function queryCohere(prompt: string): Promise<{ genz: string; millennial: string }> {
+async function queryCohere(prompt: string): Promise<{ genz: string; millennial: string; boomer: string }> {
     const res = await fetch('/api/cohere', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
