@@ -102,7 +102,8 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn�
 
 <img width="800" alt="Screenshot 2025-06-02 at 10 25 14 AM" src="https://github.com/user-attachments/assets/12ec85ac-d4e7-4741-9c3c-f8c99bb4860b" />
 
-<img width="805" alt="Screenshot 2025-06-02 at 10 21 59 AM" src="https://github.com/user-attachments/assets/42bde721-6758-49e9-b37c-3ff743204616" />
+<img width="741" alt="Screenshot 2025-06-02 at 10 29 06 AM" src="https://github.com/user-attachments/assets/9ba66cb8-d95d-4286-8f11-7df508e3662f" />
+
 
 
 
