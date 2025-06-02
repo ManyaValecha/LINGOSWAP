@@ -100,7 +100,11 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isnâ
 * **GitHub Repository:** [https://github.com/ManyaValecha/LINGOSWAP]
 * **Live Demo on :** [http://localhost:3000]
 * **Presentation PPT:** (Link to PPT)
-* **Demo Video:** (Watch Demo)
+* **Demo Video:** 
+
+
+https://github.com/user-attachments/assets/7f8c9dd1-c641-4181-b7ac-48696e1614f1
+
 
 ---
 
