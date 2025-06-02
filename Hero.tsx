@@ -33,7 +33,6 @@ export default function Hero() {
                     <h1 className="text-4xl font-bold text-white mb-1">{title}</h1>
                 </div>
                 <div className="w-full">
-                    <DynamicTagline taglines={taglines} />
                     <p className="text-[9px] uppercase text-[rgb(150,150,150)] text-center sm:text-start">Powered by AI 🤖✨</p>
                 </div>
             </div>
