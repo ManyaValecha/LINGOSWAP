@@ -91,13 +91,15 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn�
 ## **Links 🔗**
 
 * **GitHub Repository:** [https://github.com/ManyaValecha/LINGOSWAP]
-* **Live Demo on Vercel:** [https://lingoswap.vercel.app](https://lingoswap.vercel.app)
+* **Live Demo on :** [http://localhost:3000]
 * **Presentation PPT:** (Link to PPT)
 * **Demo Video:** (Watch Demo)
 
 ---
 
 ## **Screenshots 📸**
+<img width="805" alt="Screenshot 2025-06-02 at 10 21 59 AM" src="https://github.com/user-attachments/assets/1a2566ad-1923-4c48-8236-6bb9aed2ea7e" />
+
 ![WhatsApp Image 2025-06-02 at 9 32 50 AM](https://github.com/user-attachments/assets/a4547418-e2db-45df-8a4e-0f7307488256)
 ![WhatsApp Image 2025-06-02 at 9 32 50 AM-2](https://github.com/user-attachments/assets/f0879483-fe83-4fbc-bc5e-a9c31a9f6146)
 
