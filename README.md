@@ -60,7 +60,7 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isnâ
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-repo/lingoswap.git
+   git clone https://github.com/ManyaValecha/LINGOSWAP
    cd lingoswap
    ```
 
