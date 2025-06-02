@@ -9,6 +9,13 @@ Welcome to **LINGOSWAP**, the ultimate Next.js app that transforms your everyday
 In a world where communication styles differ wildly across generations, **LINGOSWAP** bridges the gap by converting plain text into generation-specific slang with flair and personality. Whether you want to vibe with Gen Z, connect with Millennials, or keep it classic Boomer style, this app has you covered.
 
 Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn’t just a translator — it’s a **culture connector and a conversation starter**.
+| 🚀 **Feature**                         | 🔍 **Description**                                                                | 🏅 **X-RAPTORS Bonus Tag**                |
+| -------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------- |
+| 🤖 **Cohere API Integration**          | Leverages Cohere’s advanced language model for generational slang transformation. | ✅ *External API Integration*              |
+| 🎭 **Sentiment-Aware Responses**       | Auto-detects emotional tone and tailors slang accordingly for authentic outputs.  | ✅ *Sentiment/Emotion-Aware Layer*         |
+| 🌐 **Optional Multilingual Edge**      | *(Optional layer)* Adds translation support for enhanced accessibility.           | ✅ *Multilingual Support (Bonus Layer)*    |
+| 🌈 **Cultural Relevance & Fun Factor** | Bridges Gen Z, Millennial, and Boomer lingo gaps with flair and purpose.          | ✅ *Thematic Bonus: “The Intersection”*    |
+| 📊 **Analytics + Rate Limiting**       | Uses Vercel Analytics + KV for performance, abuse prevention & UX.                | ✅ *Backend Observability & Smart Scaling* |
 
 ---
 
@@ -108,6 +115,12 @@ Powered by **AI smarts, stylish UX, and powerful backend magic**, LINGOSWAP isn�
 
 
 ---
+🧠 **Use Cases** -
+
+🤝 Cross-generational workplaces — making communication fun & effective.
+🧓 Elder tech adoption — make tech feel more native to Boomers.
+📱 Social media creators — rapid slang remix for different audiences.
+📚 Ed-tech & Language Learning — learn how slang evolves with context.
 
 ## ** BEST FEATURES OF LINGOSWAP 🏆🥳**
 
