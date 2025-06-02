@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@radix-ui/react-label";
-import SuspenseComponent from "./SuspenseComponent";
+//import SuspenseComponent from "./SuspenseComponent";
 import { IoArrowUpCircleOutline, IoCopyOutline } from "react-icons/io5";
 import { MdRestartAlt } from "react-icons/md";
 import AuthorPlug from "./AuthorPlug";
@@ -145,7 +145,7 @@ export default function QueryGPT({ placeholder }: { placeholder: string }) {
           </div>
         ) : isLoading ? (
           <div className="mt-6">
-            <SuspenseComponent />
+      
           </div>
         ) : null}
 
