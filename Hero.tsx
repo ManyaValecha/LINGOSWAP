@@ -1,5 +1,5 @@
 import Image from "next/image"
-import DynamicTagline from "./DynamicTagline"
+//import DynamicTagline from "./DynamicTagline"
 
 export default function Hero() {
     const title = "Welcome to LINGOSWAP🗿"
